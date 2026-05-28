@@ -42,7 +42,7 @@ I have extensive experience in both client-side and server-side development, all
 
 - **Email:** [eliyahuofficialmusic@gmail.com](mailto:eliyahuofficialmusic@gmail.com)
 - **LinkedIn:** [Eliyahu's LinkedIn](https://www.linkedin.com/in/eliyahuofficial/)
-- **Portfolio:** [Eliyahu's Portfolio](https://eliyahuportfolioupdate.netlify.app/)
+
 
 Feel free to explore my repositories and reach out if you have any questions or collaboration ideas. Let's build something amazing together!
 
