@@ -1,51 +1,54 @@
-# Hi there, I'm Eliyahu! 👋
+# Eliyahu Levi
 
-Welcome to my GitHub profile! I'm a developer specialized in creating applications and websites using a variety of programming languages and popular tools. Here's a bit more about me:
+**Full-Stack & AI Engineer — I build and run generative-AI products in production.**
 
----
-
-## 📖 About Me
-
-- **Name:** Eliyahu Levi
-- **Profession:** Application and Website Developer
-- **Location:** Israel
-- **Education:** Full Stack Developer
-- **Interests:** Coding, Technology, Innovation, Team Collaboration
+Not demos. Live systems with paying users: multi-provider media pipelines, background job architecture, cost routing across AI vendors, and the billing and account layers around them. Based in Israel.
 
 ---
 
-## 💼 Professional Background
+## What I'm building
 
-I have extensive experience in both client-side and server-side development, allowing me to design and implement comprehensive solutions from start to finish. My expertise spans from initial development through deployment and maintenance. I excel in working collaboratively within teams, managing projects effectively, and developing innovative solutions tailored to specific business and technological requirements.
+### [The Amazing Studio](https://theamazing.studio) · AI product-video studio
+One product photo in → a finished 9:16 ad film out: AI storyboard, five animated shots, soundtrack, final render. Live commercial product with per-unit pricing, a credit system and payment-gateway checkout.
 
----
+**Engineering:** Three-service architecture on Railway (web / BullMQ worker / Redis) after refactoring away from synchronous Remotion rendering inside the web process — long renders now run in the background and survive interruption. Character and world consistency maintained across the full film.
 
-## 💡 What I Do
+### [Felora](https://felora.app) · AI marketing-content platform for Israeli businesses
+Videos, ads, product imagery and print/packaging files — generated in Hebrew, in each brand's own voice.
 
-### Frontend Development
-- **Languages & Tools:** HTML, CSS, Sass, JavaScript, TypeScript
-- **Frameworks & Libraries:** React.js, React Hooks, React Components, React Router DOM
-- **Styling:** Tailwind CSS, Bootstrap
+**Engineering:** Cost-based routing across three video providers (Runway, Kling, Seedance via fal.ai) with up to a 10x spread in per-second cost. Separate BullMQ queues with per-provider rate limiters, sized for concurrent load. Hardening: auth rate limiting, SSRF guards on user-supplied URLs, automatic credit refunds on failure, startup recovery for stuck workers.
 
-### Backend Development
-- **Languages & Frameworks:** Node.js, Express.js
-- **Databases:** MongoDB, MySQL
-- **Tools & Libraries:** Mongoose, Joi, Bcrypt, Jsonwebtoken
+### [The Amazing Online](https://theamazing.online) · AI UGC video studio
+A short brief becomes a vertical UGC ad — script, photorealistic imagery, animated clips, natural voiceover in six languages, music and captions. Step-by-step approval before final render.
 
-### Tools & Technologies
-- **Development Tools:** Elementor, Postman API, Axios, Vite
-- **React Ecosystem:** React Hook Form, React Icons, React Toastify, React Spinners, SweetAlert2
+### [Atarika](https://atarika.co.il) · Digital solutions studio
+Websites and landing pages, AI video production, CRM systems and automation, and campaign management for business clients. The studio behind The Amazing Studio.
 
 ---
 
-## 📫 Get in Touch
+## Engineering focus
 
-- **Email:** [eliyahuofficialmusic@gmail.com](mailto:eliyahuofficialmusic@gmail.com)
-- **LinkedIn:** [Eliyahu's LinkedIn](https://www.linkedin.com/in/eliyahuofficial/)
+- **Generative media pipelines** — orchestrating image, video, voice and music models into a single reliable output
+- **Background job architecture** — queues, workers, rate limiting, retries, recovery from partial failure
+- **AI cost control** — provider abstraction and routing so unit economics survive scale
+- **Full ownership** — architecture through deployment, plus the billing, auth and account layers that make a product sellable
 
+## Stack
 
-Feel free to explore my repositories and reach out if you have any questions or collaboration ideas. Let's build something amazing together!
+**Frontend** React · Next.js · TypeScript · Vite · Tailwind CSS
+**Backend** Node.js · Express · REST APIs · JWT
+**Data & Infra** MongoDB · PostgreSQL · Prisma · Redis · BullMQ · Docker · Nginx · Railway · Cloudinary
+**AI** OpenAI · Gemini · Claude · LangChain · RAG · embeddings & vector DBs · fal.ai · Runway · Kling · Seedance · ElevenLabs · Remotion
 
 ---
 
+## Background
 
+MBA in Business Management (marketing specialization) · B.A. Business & Marketing
+Full-Stack Web Developer, HackerU — 535 hours, completed with honors
+
+I came to engineering from marketing, which is why my products tend to be aimed at a real buyer rather than at a benchmark.
+
+---
+
+📫 [LinkedIn](https://www.linkedin.com/in/eliyahuofficial/) · [atarika.co.il](https://atarika.co.il) · info@atarika.co.il
