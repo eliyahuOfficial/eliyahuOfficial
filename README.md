@@ -2,7 +2,9 @@
 
 **Full-Stack & AI Engineer — I build and run generative-AI products in production.**
 
-Not demos. Live systems with paying users: multi-provider media pipelines, background job architecture, cost routing across AI vendors, and the billing and account layers around them. Based in Israel.
+Not demos. Live, deployed products: multi-provider media pipelines, background job architecture, cost routing across AI vendors, and the billing and account layers around them. Based in Israel.
+
+> **Where is the code?** My current work lives in private repositories, so it doesn't show up on this profile. The products below are live — the links are the best way to see it. The public repos here are mostly earlier learning projects.
 
 ---
 
@@ -26,6 +28,19 @@ Websites and landing pages, AI video production, CRM systems and automation, and
 
 ---
 
+## In development
+
+### Jarvis Commerce OS · Autonomous e-commerce operating system
+An AI-first system that runs online stores through a conversational interface (Jarvis): multi-store storefronts, AliExpress supplier API, tiered Claude agents and WhatsApp approval alerts.
+
+### AAI · AI app builder
+A Base44 / Lovable-style builder focused on the design quality of the apps it generates.
+
+### Elara · Experimental digital entity
+A persistent "digital organism" designed with long-term memory of its user, emotions and incremental language learning, rendered as a fully animated 3D scene.
+
+---
+
 ## Engineering focus
 
 - **Generative media pipelines** — orchestrating image, video, voice and music models into a single reliable output
@@ -35,20 +50,21 @@ Websites and landing pages, AI video production, CRM systems and automation, and
 
 ## Stack
 
-**Frontend** React · Next.js · TypeScript · Vite · Tailwind CSS
-**Backend** Node.js · Express · REST APIs · JWT
-**Data & Infra** MongoDB · PostgreSQL · Prisma · Redis · BullMQ · Docker · Nginx · Railway · Cloudinary
-**AI** OpenAI · Gemini · Claude · LangChain · RAG · embeddings & vector DBs · fal.ai · Runway · Kling · Seedance · ElevenLabs · Remotion
+- **Frontend** — React · Next.js · TypeScript · Vite · Tailwind CSS
+- **Backend** — Node.js · Express · REST APIs · JWT
+- **Data & Infra** — MongoDB · PostgreSQL · Prisma · Redis · BullMQ · Docker · Nginx · Railway · Cloudinary
+- **AI** — OpenAI · Gemini · Claude · LangChain · RAG · embeddings & vector DBs · fal.ai · Runway · Kling · Seedance · ElevenLabs · Remotion
 
 ---
 
 ## Background
 
-MBA in Business Management (marketing specialization) · B.A. Business & Marketing
-Full-Stack Web Developer, HackerU — 535 hours, completed with honors
+- MBA in Business Management (marketing specialization) · B.A. Business & Marketing
+- Full-Stack Web Developer, HackerU — 535 hours, completed with honors
+- Before engineering: founded and ran a workwear and safety-footwear import business (2009–2023)
 
-I came to engineering from marketing, which is why my products tend to be aimed at a real buyer rather than at a benchmark.
+I came to engineering from business and marketing, which is why my products tend to be aimed at a real buyer rather than at a benchmark.
 
 ---
 
-📫 [LinkedIn](https://www.linkedin.com/in/eliyahuofficial/) · [atarika.co.il](https://atarika.co.il) · info@atarika.co.il
+📫 [LinkedIn](https://www.linkedin.com/in/eliyahuofficial/) · [atarika.co.il](https://atarika.co.il) · [eliyahu.levi.official@gmail.com](mailto:eliyahu.levi.official@gmail.com)
